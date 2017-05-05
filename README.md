@@ -6,6 +6,6 @@ Please, refer to http://www.wandercosta.com/bookstore-webservices/ for more info
 ## Compile & Run
 To compile the application, run `mvn clean install`.
 
-To run the application with the source code, run `mvn -Dnetbeans.deploy=true package jetty:run`.
+To run the application from the source code, run `mvn -Dnetbeans.deploy=true package jetty:run`. It will be deployed in Jetty (from the plugin) published at the port 8080.
 
 To run the application from the compiled code, you need to deploy it in an application server (Jetty, Tomcat, etc).

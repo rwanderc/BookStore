@@ -1,5 +1,7 @@
 # Book Store
 
+[![Build Status](https://travis-ci.org/rwanderc/book-store.svg?branch=master)](https://travis-ci.org/rwanderc/book-store)
+
 This is an example project of an web application providing RESTful webservices simulating a book store.
 Please, refer to http://www.wandercosta.com/bookstore-webservices/ for more information.
 

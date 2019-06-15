@@ -17,7 +17,7 @@ public class DefaultExceptionMapperTest {
     private final DefaultExceptionMapper mapper = new DefaultExceptionMapper();
 
     @Test
-    public void shouldTreatNullPointerException() {
+    public void shouldHandleNullPointerException() {
         Exception ex = new NullPointerException("mocked exception");
         Response resp = mapper.toResponse(ex);
 
@@ -27,7 +27,7 @@ public class DefaultExceptionMapperTest {
     }
 
     @Test
-    public void shouldRespondForIllegalArgumentException() {
+    public void shouldHandleIllegalArgumentException() {
         Exception ex = new IllegalArgumentException("mocked exception");
         Response resp = mapper.toResponse(ex);
 
@@ -37,7 +37,7 @@ public class DefaultExceptionMapperTest {
     }
 
     @Test
-    public void shouldRespondForOtherExceptions() {
+    public void shouldHandleOtherException() {
         Exception ex = new Exception("mocked exception");
         Response resp = mapper.toResponse(ex);
 

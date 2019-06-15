@@ -33,7 +33,7 @@ public class BookDB {
      * @return all the books.
      */
     public List<Book> findAll() {
-        return new ArrayList(books.values());
+        return new ArrayList<>(books.values());
     }
 
     /**

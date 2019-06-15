@@ -1,13 +1,3 @@
 # Book Store
 
-[![Build Status](https://travis-ci.org/rwanderc/book-store.svg?branch=master)](https://travis-ci.org/rwanderc/book-store)
-
-This is an example project of an web application providing RESTful webservices simulating a book store.
-Please, refer to http://www.wandercosta.com/bookstore-webservices/ for more information.
-
-## Compile & Run
-To compile the application, run `mvn clean install`.
-
-To run the application from the source code, run `mvn jetty:run`. It will be deployed using a Jetty plugin and published at the port 8080.
-
-To run the application from the compiled code, you need to deploy it in an application server (Jetty, Tomcat, etc).
+This project was moved to https://github.com/rwanderc/examples/tree/master/jersey/jersey-book-store
